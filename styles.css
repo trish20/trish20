@@ -1,0 +1,234 @@
+﻿html {
+background-color: black;
+}
+
+header 
+{
+position: absolute;
+right: 15px;
+width: 565px;
+color: white;
+}
+
+header p 
+{
+ 
+ color:White;
+ text-align: right;
+ color: #FFFFFF;
+ font-family: Arial;
+ font-style:italic;
+ font-size: 16px;
+}
+
+#search {    text-align: right;
+}
+
+#search input[type="text"] 
+{
+    background: no-repeat 10px 6px #444;
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #777;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    text-align:right;
+    height: 12px;
+    margin-left: 0px;
+}
+
+#search input[type="text"]:focus {
+    width: 200px;
+    }
+
+.logo 
+{
+    float:left;
+position: absolute;
+	left: 10px;
+	top: 25px;
+width: auto;
+height: 50px;
+}
+
+body {
+position: relative;
+font-family: Arial, sans-serif;
+font-size: 100%;
+margin-left:auto;
+margin-right:auto;
+width:960px;
+padding: 0px;
+    top: 11px;
+    left: -8px;
+    height: 1084px;
+}
+#temp
+{
+    position:relative;
+        top:150px;
+    height:20px;
+    width:960px;    
+    background-color: #E5E5E5;
+    font-size:10px;
+    
+}
+#article{
+    position:relative;
+       top:150px;
+    background-color:White;
+    padding: 0 15px 10px 15px;
+    font-size:14px;
+    float:left;
+    width:624px;
+    height:320px;
+    color:black;
+}
+ h1
+{
+    font-size:28px;
+    font-family: "Bodoni MT";
+    color: #339966;
+}
+#date
+{
+    position:relative;
+       top:150px;
+    background-color:White;
+    width:336px;
+    height:320px;
+    margin-left:624px;
+    padding: 5px 0px 5px 0px;    
+}
+.calendar
+{
+    position:relative;
+    width:auto;
+}
+ h2
+{
+    background-color:#339966;
+    height:20px;
+    font-size:14px;
+    color:White;
+    
+}
+
+header li {
+float:left;
+display: inline;
+padding-right: 20px;
+list-style-type: none;
+font-size: 14px;
+}
+
+#cssmenu ul
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:960px;
+	position:absolute;
+	    top:100px;
+	display:block;
+	height:43px;
+	font-size:18px;
+	font-weight:bold;
+	background:url('images/nav_bg.png') repeat-x left top;
+	font-family:Bodoni MT;
+	/*border-bottom:1px solid #000000;
+	border-top:1px solid #000000;*/
+	box-shadow: 1px 1px 2px #888;
+    left: 0px;
+}
+
+#cssmenu li
+{
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+}
+	
+#cssmenu li a
+{
+	display:block;
+	float:left;
+	color:#999999;
+	text-decoration:none;
+	font-weight:bold;
+	padding:8px 20px 0 20px;
+}
+	
+#cssmenu li a:hover
+{	
+	color:#FFFFFF;
+	height:22px;
+	background:transparent url(images/nav_bg.png) 0px -30px no-repeat;		
+}
+	
+
+.photo {
+position: relative;
+	top: 150px;
+	left: 0px;
+    width: 100%;
+}
+.slideshow {
+position: relative;
+	top: 150px;
+	left: 0px;
+	text-align:center;
+    width:100%
+}
+
+
+#bottom {
+text-align: center;
+position: relative;
+bottom:-80px;
+width:100%
+}
+
+#bottom li a:hover {
+color: gray;
+}
+
+
+#bottom li{
+display: inline;
+list-style-type: none;
+}
+
+#bottom li a {
+padding-right: 20px;
+text-decoration: none;
+font-size: 90%;
+}
+
+#bottom li a {
+color:white;
+}
+
+#address 
+{
+  position: relative;
+bottom:-150px;  
+color:White;
+text-align: center;
+font-size:12px;
+}
+
